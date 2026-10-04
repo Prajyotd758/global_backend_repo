@@ -1,11 +1,10 @@
 /**
- * One-off seed script: uploads PRODUCTS into the MongoDB `products` collection,
- * one document at a time.
+ * One-off seed script: uploads the plain PRODUCTS array into the MongoDB
+ * `products` collection, one document at a time.
  *
  * Run (from the backend project root):
  *   npx tsx scripts/upload-products.ts --dry-run   # validate + print, no writes
  *   npx tsx scripts/upload-products.ts             # real upload
- *   npx tsx scripts/upload-products.ts --include-placeholder-stats
  *
  * Env:
  *   MONGODB_URI   required
@@ -18,19 +17,11 @@
 import "dotenv/config";
 import { MongoClient } from "mongodb";
 
-// Adjust this path to wherever you copy the frontend data file in the backend repo.
-// (The file's `import type ... from "@/lib/types"` is erased by tsx, so no alias setup is needed.)
-import { PRODUCTS, CATEGORIES } from "../data/products";
+// Adjust this path to wherever the data file lives in the backend repo.
+import { PRODUCTS } from "./products.test";
 
 const COLLECTION = "products";
-
-// These are generated placeholders in the data file (derived from the array index),
-// not real store data. Left out unless you pass --include-placeholder-stats.
-const PLACEHOLDER_FIELDS = ["rating", "reviews", "sold"] as const;
-
-const args = new Set(process.argv.slice(2));
-const DRY_RUN = args.has("--dry-run");
-const KEEP_PLACEHOLDERS = args.has("--include-placeholder-stats");
+const DRY_RUN = process.argv.includes("--dry-run");
 
 type Doc = Record<string, any>;
 
@@ -38,7 +29,8 @@ function validate(p: Doc): string[] {
   const errs: string[] = [];
   if (!p.title || typeof p.title !== "string") errs.push("missing title");
   if (!p.slug || typeof p.slug !== "string") errs.push("missing slug");
-  if (!p.category || typeof p.category !== "string") errs.push("missing category");
+  if (!p.category || typeof p.category !== "string")
+    errs.push("missing category");
   if (typeof p.price !== "number") errs.push("price is not a number");
   if (!Array.isArray(p.images) || p.images.length === 0) errs.push("no images");
   return errs;
@@ -48,49 +40,38 @@ async function main() {
   const uri = process.env.MONGODB_URI;
   if (!uri) throw new Error("MONGODB_URI is not set");
 
-  // 1. Prepare: dedupe by slug (keep the first), validate, strip placeholders
+  // 1. Prepare: dedupe by slug (keep the first) and validate
   const seen = new Set<string>();
   const docs: Doc[] = [];
   const skipped: string[] = [];
 
-  for (const raw of PRODUCTS as Doc[]) {
-    if (seen.has(raw.slug)) {
-      skipped.push(`"${raw.title}" (duplicate slug: ${raw.slug})`);
+  for (const p of PRODUCTS as Doc[]) {
+    if (seen.has(p.slug)) {
+      skipped.push(`"${p.title}" (duplicate slug: ${p.slug})`);
       continue;
     }
-    seen.add(raw.slug);
+    seen.add(p.slug);
 
-    const doc: Doc = { ...raw };
-    if (!KEEP_PLACEHOLDERS) for (const f of PLACEHOLDER_FIELDS) delete doc[f];
-
-    const errs = validate(doc);
+    const errs = validate(p);
     if (errs.length) {
-      skipped.push(`"${raw.title}" (${errs.join(", ")})`);
+      skipped.push(`"${p.title}" (${errs.join(", ")})`);
       continue;
     }
-    docs.push(doc);
+    docs.push({ ...p });
   }
-
-  // 2. Warn about categories that are not in CATEGORIES
-  const known = new Set(CATEGORIES.map((c: Doc) => c.id));
-  const unknown = [...new Set(docs.map((d) => d.category))].filter((c) => !known.has(c));
 
   console.log(`Prepared ${docs.length} products (${PRODUCTS.length} in file).`);
   if (skipped.length) {
     console.warn(`\nSkipped ${skipped.length}:`);
     skipped.forEach((s) => console.warn("  - " + s));
   }
-  if (unknown.length) {
-    console.warn(`\nCategories used by products but missing from CATEGORIES: ${unknown.join(", ")}`);
-  }
-  console.log(KEEP_PLACEHOLDERS ? "\nPlaceholder rating/reviews/sold: INCLUDED" : "\nPlaceholder rating/reviews/sold: omitted");
 
   if (DRY_RUN) {
     console.log("\n--dry-run: nothing written.");
     return;
   }
 
-  // 3. Upload one by one
+  // 2. Upload one by one
   const client = new MongoClient(uri);
   await client.connect();
   try {
@@ -108,7 +89,10 @@ async function main() {
         const now = new Date();
         const res = await col.updateOne(
           { slug: doc.slug },
-          { $set: { ...doc, updatedAt: now }, $setOnInsert: { createdAt: now } },
+          {
+            $set: { ...doc, updatedAt: now },
+            $setOnInsert: { createdAt: now },
+          },
           { upsert: true }
         );
         if (res.upsertedCount) {
@@ -124,7 +108,9 @@ async function main() {
       }
     }
 
-    console.log(`\nDone. inserted: ${inserted}, updated: ${updated}, failed: ${failed}`);
+    console.log(
+      `\nDone. inserted: ${inserted}, updated: ${updated}, failed: ${failed}`
+    );
     if (failed) process.exitCode = 1;
   } finally {
     await client.close();
