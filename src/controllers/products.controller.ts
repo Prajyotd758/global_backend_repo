@@ -32,9 +32,8 @@ export const getProducts = async (req: Request, res: Response) => {
       MAX_LIMIT
     );
 
-    const sortKey = (
-      req.query.sort && req.query.sort in SORTS ? req.query.sort : "popular"
-    ) as SortKey;
+    const sort = typeof req.query.sort === "string" ? req.query.sort : "";
+    const sortKey: SortKey = sort in SORTS ? (sort as SortKey) : "popular";
 
     const filter: Record<string, any> = {};
 
