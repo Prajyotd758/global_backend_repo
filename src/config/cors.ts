@@ -3,10 +3,15 @@ import { env } from "./env";
 
 export const corsOptions: CorsOptions = {
   origin(origin, cb) {
-    // Allow non-browser clients (curl, Postman) which send no Origin header
-    if (!origin || env.clientOrigins.includes(origin)) return cb(null, true);
-    cb(new Error(`Origin ${origin} not allowed by CORS`));
+    // Non-browser clients (curl, Postman, server-to-server) send no Origin
+    if (!origin) return cb(null, true);
+    const o = origin.replace(/\/$/, "");
+    if (env.clientOrigins.includes(o)) return cb(null, true);
+    console.warn(`[cors] blocked origin: ${o}`); // shows up in Render logs
+    cb(null, false); // deny quietly, don't throw
   },
-  credentials: true, // needed for the httpOnly refresh-token cookie
+  credentials: true, // httpOnly refresh-token cookie
   methods: ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "x-internal-key"],
+  maxAge: 86400,
 };

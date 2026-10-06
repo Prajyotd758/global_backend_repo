@@ -16,6 +16,7 @@ export const app = express();
 app.set("trust proxy", 1); // correct client IPs behind Vercel / a reverse proxy
 app.use(helmet());
 app.use(cors(corsOptions));
+app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }));
 app.use(express.json({ limit: "100kb" }));
 app.use(cookieParser());
 if (!env.isProd) app.use(morgan("dev"));
