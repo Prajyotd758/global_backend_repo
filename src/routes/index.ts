@@ -5,6 +5,7 @@ import cartRoutes from "./cart.routes";
 import wishlistRoutes from "./wishList.routes";
 import address from "./address.routes";
 import profile from "./profile.routes";
+import orderRoutes from "./order.routes";
 
 const router = Router();
 
@@ -21,6 +22,6 @@ router.use("/profile", profile);
 
 // Coming next:
 // router.use("/sessions", sessionRoutes);
-// router.use("/orders", orderRoutes);
+router.use("/orders", orderRoutes);
 
 export default router;

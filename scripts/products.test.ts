@@ -3,7 +3,7 @@ export const PRODUCTS = [
     title: "HydroBowl Fruit & Veggie Washer",
     slug: "hydrobowl-fruit-and-veggie-washer",
     category: "kitchen",
-    price: 0,
+    price: 1999,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US5d826ff8eb029d/design/2025-06-10_9d9a809064185.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US5d826ff8eb029d/design/2025-06-10_d5813b289efba8.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -33,7 +33,7 @@ export const PRODUCTS = [
     title: "Modular Shoe Rack / Wall Shelf",
     slug: "modular-shoe-rack-wall-shelf",
     category: "home-decor",
-    price: 0,
+    price: 2250,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US84e4784439f5ca/design/2025-02-08_e41d0c6df1e51.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US84e4784439f5ca/design/2025-02-08_e93d418cb6186.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -63,7 +63,7 @@ export const PRODUCTS = [
     title: "Mechanical Desk Phone Holder Arm",
     slug: "mechanical-desk-phone-holder-arm",
     category: "phone-gadgets",
-    price: 0,
+    price: 995,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US3e09becace8daf/design/2025-01-29_250cf6e8889f2.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US3e09becace8daf/design/2025-01-29_3f06170c4d829.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -92,7 +92,7 @@ export const PRODUCTS = [
     title: "Auto-Locking Ball Hanger",
     slug: "auto-locking-ball-hanger",
     category: "functional",
-    price: 0,
+    price: 299,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US7ea63c10a0d61/design/2025-01-11_5ce5dca9bbdb6.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US7ea63c10a0d61/design/2025-01-11_29da85c9d2136.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -120,7 +120,7 @@ export const PRODUCTS = [
     title: "T-Rex Pencil Holder",
     slug: "t-rex-pencil-holder",
     category: "desk-organizers",
-    price: 0,
+    price: 910,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US8779fef0a2305/design/2024-07-15_05bc33c09ed44.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US8779fef0a2305/design/2024-07-15_882874ed060af.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -149,7 +149,7 @@ export const PRODUCTS = [
     title: "iPad / Tablet Stand Riser",
     slug: "ipad-tablet-stand-riser",
     category: "phone-gadgets",
-    price: 0,
+    price: 1395,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USed8466018779e1/design/2024-12-22_f5db8e93c19e4.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USed8466018779e1/design/2024-12-22_c5f5e870c5ee2.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -179,7 +179,7 @@ export const PRODUCTS = [
     title: "Modular Desk Shelf",
     slug: "modular-desk-shelf",
     category: "desk-organizers",
-    price: 0,
+    price: 4599,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US38eae433bf24d0/design/2025-02-25_d73fe63c2d0e6.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US38eae433bf24d0/design/2025-02-25_6968aff3a4459.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -208,7 +208,7 @@ export const PRODUCTS = [
     title: "Stackable Dual-Colour Shoe Rack",
     slug: "stackable-dual-colour-shoe-rack",
     category: "home-decor",
-    price: 0,
+    price: 2500,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USae6f41de3b641/design/2025-01-23_4bd72e79a5af28.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USae6f41de3b641/design/2025-01-22_b6a857f2bc37c8.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -238,7 +238,7 @@ export const PRODUCTS = [
     title: "Alien Desk Mug Holder",
     slug: "alien-desk-mug-holder",
     category: "desk-organizers",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US5d321e7c9002f5/design/2024-10-16_6c7526e98670c.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US5d321e7c9002f5/design/2024-10-16_87aba856ffa65.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -268,7 +268,7 @@ export const PRODUCTS = [
     title: "Single-Hand Bottle Cap Shooter",
     slug: "single-hand-bottle-cap-shooter",
     category: "toys-games",
-    price: 0,
+    price: 299,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/UScefa610fff8083/design/2f1d3a7b3fed346a.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/UScefa610fff8083/design/3caa786973aec5e3.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -296,7 +296,7 @@ export const PRODUCTS = [
     title: "Ghost with Balloon",
     slug: "ghost-with-balloon",
     category: "festive",
-    price: 0,
+    price: 249,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USc8d7fe1ccf0b6/design/2025-10-21_a3b32cee1e5f1.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USc8d7fe1ccf0b6/design/2025-10-21_c999691c1d3ca8.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -326,7 +326,7 @@ export const PRODUCTS = [
     title: "Desk Cable Holder with Clamp",
     slug: "desk-cable-holder-with-clamp",
     category: "desk-organizers",
-    price: 0,
+    price: 250,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US603a5520109477/design/2025-11-16_ad36ae6dfc124.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US603a5520109477/design/2025-11-16_210221e05a9a68.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -356,7 +356,7 @@ export const PRODUCTS = [
     title: "Balancing Goose Wine Bottle Holder",
     slug: "balancing-goose-wine-bottle-holder",
     category: "kitchen",
-    price: 0,
+    price: 849,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US30bc20addf76b4/design/79d9b20100fcba1b.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US30bc20addf76b4/design/79c0a0e5b05339a6.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -385,7 +385,7 @@ export const PRODUCTS = [
     title: "Modern Two-Tier Bathroom Organizer",
     slug: "modern-two-tier-bathroom-organizer",
     category: "home-decor",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US95e1b0a8c1f8ad/design/2025-02-05_2c663f44c88c1.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US95e1b0a8c1f8ad/design/2025-02-20_225ce91d4d28.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -411,7 +411,7 @@ export const PRODUCTS = [
     title: "Candy Ghost Bowl",
     slug: "candy-ghost-bowl",
     category: "festive",
-    price: 0,
+    price: 299,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US1474dde1b39b95/design/2023-10-08_624b952db99cc.webp?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US1474dde1b39b95/design/2023-10-08_d2e90a19e512d.webp?x-oss-process=image/resize,w_1000/format,webp",
@@ -439,7 +439,7 @@ export const PRODUCTS = [
     title: "Under-Monitor Pen & Sticky Note Holder",
     slug: "under-monitor-pen-and-sticky-note-holder",
     category: "desk-organizers",
-    price: 0,
+    price: 149,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USf5e3c51f146b23/design/2025-01-22_e8e79de11c31c.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USf5e3c51f146b23/design/2025-01-22_32afe0c8a31f4.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -468,7 +468,7 @@ export const PRODUCTS = [
     title: "Foldable Under-Desk Cup Holder",
     slug: "foldable-under-desk-cup-holder",
     category: "desk-organizers",
-    price: 0,
+    price: 499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US7dba467c4c9033/design/395147b589704367.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US7dba467c4c9033/design/1265b7f34637bf0e.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -496,7 +496,7 @@ export const PRODUCTS = [
     title: "Super Saiyan Figurine",
     slug: "super-saiyan-figurine",
     category: "miniatures",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USc3e5c4e30677e/design/2025-10-28_8ee7a01314de58.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USc3e5c4e30677e/design/2025-10-28_8df0e7a296687.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -524,7 +524,7 @@ export const PRODUCTS = [
     title: "X-Wing Kit Card Model",
     slug: "x-wing-kit-card-model",
     category: "miniatures",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US7e691af03593cd/design/2025-08-15_d0b4c8cd4e4d98.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US7e691af03593cd/design/2025-08-15_b3b065ea61957.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -555,7 +555,7 @@ export const PRODUCTS = [
     title: "USB Cable & Charger Organizer Tray",
     slug: "usb-cable-and-charger-organizer-tray",
     category: "phone-gadgets",
-    price: 0,
+    price: 699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US308523116a62c2/design/05bde317d1901863.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US308523116a62c2/design/ee00dc679e1c6e3c.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -585,7 +585,7 @@ export const PRODUCTS = [
     title: "Flexi Skeleton T-Rex",
     slug: "flexi-skeleton-t-rex",
     category: "toys-games",
-    price: 0,
+    price: 199,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/UScad4f84b36c974/design/2025-07-24_dd8326393ae9b8.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/UScad4f84b36c974/design/2025-08-05_3b3da268764958.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -614,7 +614,7 @@ export const PRODUCTS = [
     title: "Flexi Holding Cat",
     slug: "flexi-holding-cat",
     category: "toys-games",
-    price: 0,
+    price: 149,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US3468788e15f281/design/2024-08-12_15f8412dc5052.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US3468788e15f281/design/2024-08-12_f214d813eb4de.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -644,7 +644,7 @@ export const PRODUCTS = [
     title: "Articulated Cute Octopus",
     slug: "articulated-cute-octopus",
     category: "toys-games",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USa9623939ffc422/design/2025-04-13_fd5cc2d17224f8.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USa9623939ffc422/design/2025-04-13_fa96f2aa165e98.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -674,7 +674,7 @@ export const PRODUCTS = [
     title: "Modular Flexi Crab",
     slug: "modular-flexi-crab",
     category: "toys-games",
-    price: 0,
+    price: 249,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US2dbeb7d4f7a650/design/2149c394c41ca4ff.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US2dbeb7d4f7a650/design/f4be01783e32fd6f.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -704,7 +704,7 @@ export const PRODUCTS = [
     title: "Oriental Wish Dragon Statue",
     slug: "oriental-wish-dragon-statue",
     category: "miniatures",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USb2b077bef9d4f6/design/2026-01-18_f3a1274e31e488.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USb2b077bef9d4f6/design/2026-01-18_661bfd1bd120c8.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -732,7 +732,7 @@ export const PRODUCTS = [
     title: "Bulbasaur Multicolor Figurine",
     slug: "bulbasaur-multicolor-figurine",
     category: "miniatures",
-    price: 0,
+    price: 849,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US17cf8a95553c06/design/2024-02-01_28f95695f8f78.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US17cf8a95553c06/design/2024-02-01_9b310e6f43d46.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -772,7 +772,7 @@ export const PRODUCTS = [
     title: "Detailed Robotic Scorpion",
     slug: "detailed-robotic-scorpion",
     category: "home-decor",
-    price: 0,
+    price: 949,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US7fbc77e08df1d9/design/2025-06-20_374dc15305c288.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US7fbc77e08df1d9/design/2025-06-19_9b337640a3fe28.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -802,7 +802,7 @@ export const PRODUCTS = [
     title: "Laptop Stand",
     slug: "laptop-stand",
     category: "desk-organizers",
-    price: 0,
+    price: 649,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US18fa3160d05e02/design/2023-12-20_b6167af2159c9.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US18fa3160d05e02/design/2023-12-20_4ac097a4ef272.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -830,7 +830,7 @@ export const PRODUCTS = [
     title: "Foldable Wing Dragon Figure",
     slug: "foldable-wing-dragon-figure",
     category: "miniatures",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US160281c5744f63/design/2025-07-08_264687a245f62.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US160281c5744f63/design/2025-07-08_a2bc37a78f35e.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -859,7 +859,7 @@ export const PRODUCTS = [
     title: "Fire Dragon Voronoi Sculpture",
     slug: "fire-dragon-voronoi-sculpture",
     category: "home-decor",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USd3dfee7605db2b/design/19e3073e678b356a.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USd3dfee7605db2b/design/04ca715762744c42.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -888,7 +888,7 @@ export const PRODUCTS = [
     title: "Articulated Little White Dragon",
     slug: "articulated-little-white-dragon",
     category: "toys-games",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USccf2ae3472211b/design/2024-10-07_6b65dee2424b2.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USccf2ae3472211b/design/2024-10-07_6bb65d614cc82.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -917,7 +917,7 @@ export const PRODUCTS = [
     title: "Flexi Winged Creature",
     slug: "flexi-winged-creature",
     category: "toys-games",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US866ae4487c227c/design/2025-12-19_e54da8c3f24de8.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US866ae4487c227c/design/2025-12-19_2f65d6d9833a38.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -946,7 +946,7 @@ export const PRODUCTS = [
     title: "Mecha Psychic Statue",
     slug: "mecha-psychic-statue",
     category: "miniatures",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USb02517fc05d469/design/2025-08-23_2f0e90ea65a608.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USb02517fc05d469/design/2025-08-23_83b4ed5c0d63e8.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -975,7 +975,7 @@ export const PRODUCTS = [
     title: "Caped Vigilante Skyscraper Statue",
     slug: "caped-vigilante-skyscraper-statue",
     category: "miniatures",
-    price: 0,
+    price: 1699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USda18f1d32f32f6/design/b1c7eabc776597b1.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USda18f1d32f32f6/design/172fc8b0f57898d6.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -1004,7 +1004,7 @@ export const PRODUCTS = [
     title: "Black Hole Lamp V2",
     slug: "black-hole-lamp-v2",
     category: "lighting",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US3946ac792b3170/design/b3d8f06276a6ce8a.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US3946ac792b3170/design/8a1beb238687a085.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -1034,7 +1034,7 @@ export const PRODUCTS = [
     title: "Hot Air Balloon Lamp Shade",
     slug: "hot-air-balloon-lamp-shade",
     category: "lighting",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USf585f4cabdba0f/design/2025-01-16_14e7c8d5cb2e38.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USf585f4cabdba0f/design/2025-01-16_f21a43152bb288.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1063,7 +1063,7 @@ export const PRODUCTS = [
     title: "Pixel Block Lantern Lamp",
     slug: "pixel-block-lantern-lamp",
     category: "lighting",
-    price: 0,
+    price: 1799,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US591df2517b8c57/design/e1e45238da27138a.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US591df2517b8c57/design/f8cc22ede2277e1b.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1093,7 +1093,7 @@ export const PRODUCTS = [
     title: "Dragon Breathing Fire Lamp",
     slug: "dragon-breathing-fire-lamp",
     category: "lighting",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US92df35eb770b87/design/2025-09-10_469570298244a.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US92df35eb770b87/design/2025-09-10_541759791099a8.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1122,7 +1122,7 @@ export const PRODUCTS = [
     title: "Prism Table Lamp",
     slug: "prism-table-lamp",
     category: "lighting",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US17fd49eace981d/design/2025-08-15_1ae3ae9604637.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US17fd49eace981d/design/2025-08-15_e1f59748f6e978.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1151,7 +1151,7 @@ export const PRODUCTS = [
     title: "Threaded Vase-Mode Table Lamp",
     slug: "threaded-vase-mode-table-lamp",
     category: "lighting",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USc54fb50f0d5c19/design/2025-06-05_26880da676e9.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USc54fb50f0d5c19/design/2025-05-26_df8f1f073c227.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1180,7 +1180,7 @@ export const PRODUCTS = [
     title: "Magic Campfire LED Lamp",
     slug: "magic-campfire-led-lamp",
     category: "lighting",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US43c5454060b55f/design/2026-01-12_86681aa349be18.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US43c5454060b55f/design/2026-01-11_ddacb52e180528.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1209,7 +1209,7 @@ export const PRODUCTS = [
     title: "Turbocharger Desk Lamp",
     slug: "turbocharger-desk-lamp",
     category: "lighting",
-    price: 0,
+    price: 2999,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US169953286e3116/design/7edcef75bad3b835.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US169953286e3116/design/25ad9a38e9c9f964.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1238,7 +1238,7 @@ export const PRODUCTS = [
     title: "Cloud Table Lamp",
     slug: "cloud-table-lamp",
     category: "lighting",
-    price: 0,
+    price: 1799,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US785629d640df37/design/2025-11-18_fc807149f6f17.webp?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US785629d640df37/design/2025-11-18_04892ba5a95468.webp?x-oss-process=image/resize,w_1000/format,webp",
@@ -1267,7 +1267,7 @@ export const PRODUCTS = [
     title: "Engine Piston Lamp",
     slug: "engine-piston-lamp",
     category: "lighting",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US9440c73a680139/design/2025-01-12_b1f16ced8c35f.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US9440c73a680139/design/2025-01-12_446100cca9c6a.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1295,7 +1295,7 @@ export const PRODUCTS = [
     title: "Wavy Table Lamp",
     slug: "wavy-table-lamp",
     category: "lighting",
-    price: 0,
+    price: 1999,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US47c2e40a869ac9/design/d7797ddba8c41acb.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US47c2e40a869ac9/design/81f4f7242fee6062.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1324,7 +1324,7 @@ export const PRODUCTS = [
     title: "Coral Lamp",
     slug: "coral-lamp",
     category: "lighting",
-    price: 0,
+    price: 1899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US81b201d5241104/design/2025-08-23_8280735c3f12b.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US81b201d5241104/design/2025-08-23_329de136e80a7.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -1353,7 +1353,7 @@ export const PRODUCTS = [
     title: "Snail Lamp",
     slug: "snail-lamp",
     category: "lighting",
-    price: 0,
+    price: 1899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US9bcfd41aaf737e/design/2026-01-03_3da568319e06a8.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US9bcfd41aaf737e/design/2026-01-03_31269656e0ec3.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1382,7 +1382,7 @@ export const PRODUCTS = [
     title: "Large Illuminated Moon Wall Lamp",
     slug: "large-illuminated-moon-wall-lamp",
     category: "lighting",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USe770d4f948eabb/design/2024-10-25_92baa45f669e5.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USe770d4f948eabb/design/2026-01-12_6a0657540f4c78.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1412,7 +1412,7 @@ export const PRODUCTS = [
     title: "Tripod Table Lamp",
     slug: "tripod-table-lamp",
     category: "lighting",
-    price: 0,
+    price: 1899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US6acbe7f28bf395/design/8aa1045f114f9851.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US6acbe7f28bf395/design/2025-06-19_17e91217ec664.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -1448,7 +1448,7 @@ export const PRODUCTS = [
     title: "Reactor Core Lamp",
     slug: "reactor-core-lamp",
     category: "lighting",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US6c138be50013ec/design/2024-05-26_4308335db0309.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US6c138be50013ec/design/2024-05-26_86fc1928e696e.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1478,7 +1478,7 @@ export const PRODUCTS = [
     title: "Lush Leaf Pendant Lamp",
     slug: "lush-leaf-pendant-lamp",
     category: "lighting",
-    price: 0,
+    price: 2499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US23e095dc27bee7/design/2025-10-23_40d0dc7bd1da2.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US23e095dc27bee7/design/2025-10-21_e825cc208942d.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1507,7 +1507,7 @@ export const PRODUCTS = [
     title: "CubeStack Desk Lamp",
     slug: "cubestack-desk-lamp",
     category: "lighting",
-    price: 0,
+    price: 1899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US6c3bed6239fb56/design/2025-01-31_b98e7be190c99.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US6c3bed6239fb56/design/2025-01-31_ec47fdbe68644.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1535,7 +1535,7 @@ export const PRODUCTS = [
     title: "Armored Hero Helmet MK3/MK7",
     slug: "armored-hero-helmet-mk3-mk7",
     category: "cosplay",
-    price: 0,
+    price: 3499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US84179b916f071d/design/2024-03-05_476b423077a26.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US84179b916f071d/design/2024-03-05_a67ddee1c05e1.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1566,7 +1566,7 @@ export const PRODUCTS = [
     title: "Futuristic Pistol Prop Replica",
     slug: "futuristic-pistol-prop-replica",
     category: "cosplay",
-    price: 0,
+    price: 3299,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USdd55592b9f8a34/design/2025-05-27_635d75e39c107.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USdd55592b9f8a34/design/2025-05-27_d876466ded81b.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1596,7 +1596,7 @@ export const PRODUCTS = [
     title: "Book Page Holder",
     slug: "book-page-holder",
     category: "functional",
-    price: 0,
+    price: 99,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US1a1df6a86ce156/design/2025-08-11_d26cc1043c92e.jpg?x-oss-process=image/resize,w_1000/format,webp",
     ],
@@ -1622,7 +1622,7 @@ export const PRODUCTS = [
     title: "Iron Throne PS5 Controller Stand",
     slug: "iron-throne-ps5-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US7bdc40ca4836d5/design/2025-11-21_30b2e60ea8736.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US7bdc40ca4836d5/design/2025-11-21_fe42e48b0c5188.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1648,7 +1648,7 @@ export const PRODUCTS = [
     title: "Honeycomb Xbox Controller Stand",
     slug: "honeycomb-xbox-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USef28c5841d323a/design/2025-11-16_bf3fd60cdf60f8.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USef28c5841d323a/design/2025-11-16_46fdaca70d4a5.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1673,7 +1673,7 @@ export const PRODUCTS = [
     title: "Wolverine Universal Controller Stand",
     slug: "wolverine-universal-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US1c1d26dc0e8e68/design/3f368669995d91b6.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US1c1d26dc0e8e68/design/da9fe1ffc6eac4b2.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1702,7 +1702,7 @@ export const PRODUCTS = [
     title: "Gaming Chopsticks",
     slug: "gaming-chopsticks",
     category: "gaming",
-    price: 0,
+    price: 99,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/DSM00000003339870/design/3b1533bca386ac63.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/DSM00000003339870/design/d45a63404f60079c.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -1728,7 +1728,7 @@ export const PRODUCTS = [
     title: "Xbox Series Controller Stand",
     slug: "xbox-series-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US1eda674df9e1a8/design/2025-09-05_ad4068cef85608.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US1eda674df9e1a8/design/2025-09-05_299459eb6bf108.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1755,7 +1755,7 @@ export const PRODUCTS = [
     title: "Xbox Controller Steering Wheel",
     slug: "xbox-controller-steering-wheel",
     category: "gaming",
-    price: 0,
+    price: 299,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US5ef2e8c92e7e04/design/2024-12-09_1fb16bab67fdb.gif?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US5ef2e8c92e7e04/design/2024-12-09_2a88fbd8656a5.gif?x-oss-process=image/resize,w_1000/format,webp",
@@ -1781,7 +1781,7 @@ export const PRODUCTS = [
     title: "Titan God Atlas Controller Stand",
     slug: "titan-god-atlas-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USfdb316aa76a565/design/fd58f97ae3b93da8.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USfdb316aa76a565/design/fe046b066b6cd967.webp?x-oss-process=image/resize,w_1000/format,webp",
@@ -1809,7 +1809,7 @@ export const PRODUCTS = [
     title: "Night Fury Xbox Controller Stand",
     slug: "night-fury-xbox-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USc16c9ea7215125/design/78c925f87e4de7df.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USc16c9ea7215125/design/3ea36cf3c86b1bf2.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1838,7 +1838,7 @@ export const PRODUCTS = [
     title: "Organic Controller Support",
     slug: "organic-controller-support",
     category: "gaming",
-    price: 0,
+    price: 399,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US5016e20ca339de/design/86bed7fa004e97fb.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US5016e20ca339de/design/932019a09f16187f.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1867,7 +1867,7 @@ export const PRODUCTS = [
     title: "Crystal Xbox One Controller Holder",
     slug: "crystal-xbox-one-controller-holder",
     category: "gaming",
-    price: 0,
+    price: 699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US2340f268188466/design/2024-08-03_15430807768ad.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US2340f268188466/design/2024-08-03_a34c7a3db0f49.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1894,7 +1894,7 @@ export const PRODUCTS = [
     title: "Articulated PlayStation Shelf Buddies",
     slug: "articulated-playstation-shelf-buddies",
     category: "gaming",
-    price: 0,
+    price: 699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US9e39f812d4b507/design/2026-01-13_b462e433a621e.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US9e39f812d4b507/design/2025-10-16_a60cc81fa1515.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1923,7 +1923,7 @@ export const PRODUCTS = [
     title: "PS5 Custom Front Plates (Anime, Games, Movies)",
     slug: "ps5-custom-front-plates-anime-games-movies",
     category: "gaming",
-    price: 0,
+    price: 399,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USed49dbb19707d4/design/2ec6364e3d222df7.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USed49dbb19707d4/design/51f52e3bcded811c.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -1952,7 +1952,7 @@ export const PRODUCTS = [
     title: "PS5 DualSense Controller Stand",
     slug: "ps5-dualsense-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USfdc1476726b55/design/17630cc3f21ca9d9.jpg?x-oss-process=image/resize,w_1000/format,webp",
     ],
@@ -1977,7 +1977,7 @@ export const PRODUCTS = [
     title: "Cubone Skull Universal Controller Holder",
     slug: "cubone-skull-universal-controller-holder",
     category: "gaming",
-    price: 0,
+    price: 499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US29321c5b72e0d0/design/f76e81ae33a8c45e.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US29321c5b72e0d0/design/07c6b13d923f0e01.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -2006,7 +2006,7 @@ export const PRODUCTS = [
     title: "Xbox Controller Pillow Stand",
     slug: "xbox-controller-pillow-stand",
     category: "gaming",
-    price: 0,
+    price: 499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USa825f17aa9d46a/design/2025-09-28_53bb2612e152.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USa825f17aa9d46a/design/2025-09-27_24ac3be3971878.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2035,7 +2035,7 @@ export const PRODUCTS = [
     title: "Special Ops Soldier Controller Stand",
     slug: "special-ops-soldier-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 799,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USad7bc6e761a49e/design/da52d9cb0f9eadbb.jpeg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USad7bc6e761a49e/design/903a50bc546916c1.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2063,7 +2063,7 @@ export const PRODUCTS = [
     title: "Dual Xbox Controller and Headset Holder",
     slug: "dual-xbox-controller-and-headset-holder",
     category: "gaming",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USb914795af49710/design/66b976ed7515515b.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USb914795af49710/design/356ed204eb03409a.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2092,7 +2092,7 @@ export const PRODUCTS = [
     title: "Symbiote Controller Stand",
     slug: "symbiote-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USc50e673826ea28/design/2025-08-11_9e3776c8c9e08.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USc50e673826ea28/design/2025-08-11_b1b847f22c3c98.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -2119,7 +2119,7 @@ export const PRODUCTS = [
     title: "Baby Groot Xbox Controller Stand",
     slug: "baby-groot-xbox-controller-stand",
     category: "gaming",
-    price: 0,
+    price: 899,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US6dd9ef75fc368f/design/7e38271353cc04c9.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US6dd9ef75fc368f/design/7a56f1a3225dd684.jpeg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2147,7 +2147,7 @@ export const PRODUCTS = [
     title: "RC Traffic Cones",
     slug: "rc-traffic-cones",
     category: "rc",
-    price: 0,
+    price: 89,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USe0b75a067322ce/design/2024-03-01_dfd25149b4549.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USe0b75a067322ce/design/2024-03-01_a364ce5627bcc8.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2173,7 +2173,7 @@ export const PRODUCTS = [
     title: "Functional RC Jackstands",
     slug: "functional-rc-jackstands",
     category: "rc",
-    price: 0,
+    price: 199,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US7c9529be2f41d6/design/2024-11-23_82fdfe8480d48.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US7c9529be2f41d6/design/2024-11-23_0ea459ec60df8.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2202,7 +2202,7 @@ export const PRODUCTS = [
     title: "Jerry Can Miniature",
     slug: "jerry-can-miniature",
     category: "rc",
-    price: 0,
+    price: 89,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USd7f34eb331ae91/design/2024-01-19_2b2f9e6b21dfc.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USd7f34eb331ae91/design/2024-01-18_384de2bb9b7de.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2228,7 +2228,7 @@ export const PRODUCTS = [
     title: "SCX30 Trailer with Ramps",
     slug: "scx30-trailer-with-ramps",
     category: "rc",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USaaaf577ae653a5/design/df7c545a96befd55.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USaaaf577ae653a5/design/e8292a840e2482d9.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2257,7 +2257,7 @@ export const PRODUCTS = [
     title: "RC Trailer Tow Bar",
     slug: "rc-trailer-tow-bar",
     category: "rc",
-    price: 0,
+    price: 299,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/DSM00000001202172/design/2025-03-12_526ncbytgvp27_img_20220825_184049.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/DSM00000001202172/design/2025-03-12_axu5sh5g7hxmw_img_20220825_184049.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2284,7 +2284,7 @@ export const PRODUCTS = [
     title: "RC Crawler Trailer 1:10",
     slug: "rc-crawler-trailer-1-10",
     category: "rc",
-    price: 0,
+    price: 1699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USbd3f59a302aac5/design/2025-01-19_2188f18d5e34f.webp?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USbd3f59a302aac5/design/2025-01-19_04a9eb0e5586d.webp?x-oss-process=image/resize,w_1000/format,webp",
@@ -2310,7 +2310,7 @@ export const PRODUCTS = [
     title: "RC Parts Tray (1:18 / 1:24)",
     slug: "rc-parts-tray-1-18-1-24",
     category: "rc",
-    price: 0,
+    price: 649,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US830e0f414391b2/design/2025-06-21_0c927734133f5.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US830e0f414391b2/design/2025-06-21_151aca9269c81.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2339,7 +2339,7 @@ export const PRODUCTS = [
     title: "Obstacle Course for 1:18 Crawlers",
     slug: "obstacle-course-for-1-18-crawlers",
     category: "rc",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US9d8f265879dcbe/design/86294ee99787355d.jpg?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US9d8f265879dcbe/design/1deba5705e6026a7.jpg?x-oss-process=image/resize,w_1000/format,webp",
@@ -2368,7 +2368,7 @@ export const PRODUCTS = [
     title: "2026 Formula 1 Calendar",
     slug: "2026-formula-1-calendar",
     category: "rc",
-    price: 0,
+    price: 1499,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/USe9cd152becb0ef/design/ea10420f610bc16d.png?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/USe9cd152becb0ef/design/4fc49d5d60c35cdc.png?x-oss-process=image/resize,w_1000/format,webp",
@@ -2397,7 +2397,7 @@ export const PRODUCTS = [
     title: "F1 Tyre Pen Pot (Pirelli)",
     slug: "f1-tyre-pen-pot-pirelli",
     category: "rc",
-    price: 0,
+    price: 699,
     images: [
       "https://makerworld.bblmw.com/makerworld/model/US4dffbac36494a5/design/d08a2a4f21a8552d.webp?x-oss-process=image/resize,w_1000/format,webp",
       "https://makerworld.bblmw.com/makerworld/model/US4dffbac36494a5/design/94d55b6e322aa2e8.webp?x-oss-process=image/resize,w_1000/format,webp",

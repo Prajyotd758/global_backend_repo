@@ -8,6 +8,7 @@ import { env } from "./config/env";
 import routes from "./routes";
 import { notFound } from "./middleware/notFound";
 import { errorHandler } from "./middleware/error";
+import { razorpayWebhook } from "./controllers/webhook.controller";
 
 // No listen() here, so the same app can run as a normal server or be
 // wrapped as a serverless function (Vercel) later.
@@ -17,6 +18,11 @@ app.set("trust proxy", 1); // correct client IPs behind Vercel / a reverse proxy
 app.use(helmet());
 app.use(cors(corsOptions));
 app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }));
+app.post(
+  "/webhooks/razorpay",
+  express.raw({ type: "application/json" }),
+  razorpayWebhook
+);
 app.use(express.json({ limit: "100kb" }));
 app.use(cookieParser());
 if (!env.isProd) app.use(morgan("dev"));
