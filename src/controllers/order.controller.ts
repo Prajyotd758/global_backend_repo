@@ -195,17 +195,37 @@ export async function getOrder(req: Request, res: Response) {
 }
 
 // ---------- GET /orders ----------
+const toSummary = (o: any) => ({
+  _id: o._id,
+  orderNumber: String(o._id).slice(-8).toUpperCase(),
+  items: o.items.map((i: any) => ({
+    name: i.title,
+    image: i.image,
+    quantity: i.quantity,
+  })),
+  total: o.total,
+  status: o.status,
+  createdAt: o.createdAt,
+});
+
+// in getOrderSummary: const recentOrders = orders.map(toSummary);
+
 export async function listOrders(req: Request, res: Response) {
   const page = Math.max(1, Number(req.query.page) || 1);
   const limit = 10;
-  const filter = { user: req.user!.id, status: { $in: ["paid", "pending"] } };
+  const filter = { user: req.user!.id, status: "paid" };
   const [orders, total] = await Promise.all([
     Order.find(filter)
       .sort({ createdAt: -1 })
       .skip((page - 1) * limit)
       .limit(limit)
+      .select("items total status createdAt")
       .lean(),
     Order.countDocuments(filter),
   ]);
-  res.json({ orders, page, pages: Math.ceil(total / limit) });
+  res.json({
+    orders: orders.map(toSummary),
+    page,
+    pages: Math.ceil(total / limit),
+  });
 }
